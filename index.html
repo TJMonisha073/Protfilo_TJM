@@ -21,7 +21,7 @@
 <body>
 	
 	<!-- Header Section Start -->
-	<header class="header-top">
+	<header class="header-top" id="top">
 		<video autoplay loop muted plays-inline class="back-video">
 			<source src="assets/video/01.mp4" type="video/mp4">
 		</video>
@@ -37,19 +37,22 @@
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 						<li class="nav-item">
-							<a class="nav-link" href="#">Home</a>
+							<a class="nav-link" href="#top">Home</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#about">About</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">PROFESSIONAL SKILLS</a>
+							<a class="nav-link" href="#skills_area">PROFESSIONAL SKILLS</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">SOME OF MY WORKS</a>
+							<a class="nav-link" href="#portfolio">SOME OF MY WORKS</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Contact</a>
+							<a class="nav-link" href="#service">Services</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact">Contact</a>
 						</li>
 					</ul>
 				</div>
@@ -58,7 +61,7 @@
 				<a href=""><span>tjm</span></a>
 			</div>
 		</section>
-		<section class="container">
+		<section class="profile_text_area container">
 			<div class="row">
 				<div class="col-12 col-sm-10 offset-sm-1 col-lg-8 offset-lg-2">
 					<div class="profile_text mt-5 pt-5">
@@ -67,6 +70,32 @@
 						<h3>I'M <span id="element"></span></h3>
 					</div>
 				</div>
+	
+				<div class="col-md-6 offset-md-3 mb-3">
+					<ul class="list-unstyled d-flex justify-content-center">
+						<li class="mx-2">
+							<a href="https://www.facebook.com/TJMonisha/" target="_blank">
+								<i class="fa-brands fa-facebook-f fa-lg"></i>
+							</a>
+						</li>
+						<li class="mx-2">
+							<a href="tel:+8801830690073">
+								<i class="fa-brands fa-whatsapp"></i>
+							</a>
+						</li>
+						<li class="mx-2">
+							<a href="mailto:etanjimjahan@gmail.com">
+								<i class="fa-regular fa-envelope"></i>
+							</a>
+						</li>
+						<li class="mx-2">
+							<a href="https://github.com/TJMonisha073" target="_blank">
+								<i class="fa-brands fa-github"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+					
 			</div>
 		</section>
 	</header>
@@ -103,12 +132,12 @@
 	<section id="skills_area">
 		<div class="container">
 			<div class="row">
-				<div class="col-6 offset-3 py-5 mt-5">
+				<div class="col-md-8 offset-md-2 py-5 mt-5">
 					<p class="skills fw-bold mb-5 featured-skills text-center" data-aos="zoom-in">My Professional Skills</p>
 				</div>
 			</div>
-			<div class="row gy-5 pb-5 mb-5">
-				<div class="col-6 my-skills">
+			<div class="row gy-5 pb-5">
+				<div class="col-md-8 offset-md-2 my-skills">
 						<p class="skills-title text-white fw-semibold" data-aos="zoom-in">HTML 95%</p>
 						<div class="progress">
 							<div class="bg-success progress-bar-striped progress-bar-animated" style="width:95%"></div>
@@ -117,29 +146,431 @@
 						<div class="progress">
 						<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:95%"></div>
 						</div>
-						<p class="skills-title text-white fw-semibold mt-4" data-aos="zoom-in">Javascript 70%</p>
+						<p class="skills-title text-white fw-semibold mt-4" data-aos="zoom-in">Javascript 50%</p>
 						<div class="progress">
-						<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:70%"></div>
+						<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:50%"></div>
 						</div>
-				</div>
-				<div class="col-6 my-skills">
-					<p class="skills-title text-white fw-semibold" data aos="zoom-in">Bootstrap 90%</p>
-						<div class="progress">
-						<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:90%"></div>
-						</div>
-						<p class="skills-title text-white fw-semibold mt-4" data-aos="zoom-in">Jquery 85%</p>
+						<p class="skills-title text-white fw-semibold" data aos="zoom-in">Bootstrap 85%</p>
 						<div class="progress">
 						<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:85%"></div>
 						</div>
-						<p class="skills-title text-white fw-semibold mt-4" data-aos="zoom-in">Wordpress Theme Customization 70%</p>
+						<p class="skills-title text-white fw-semibold mt-4" data-aos="zoom-in">Jquery 65%</p>
 						<div class="progress">
-						<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:70%"></div>
+						<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:65%"></div>
 						</div>
 				</div>
 			<div>
 		</div>
 	</section>
 	<!-- Professional Skills Section End -->
+	<!-- Our Portfolio Section Start -->
+	<section class="portfolio-section py-5 mb-5" id="portfolio">
+		<div class="container">
+		  <!-- title area start -->
+		  <div class="row">
+			<div class="col-12 offset-0 col-md-8 offset-md-2">
+			  <div class="title text-center">
+				<h2 class="fw-bold text-uppercase mt-4">SOME OF MY WORKS</h2>
+			  </div>
+			</div>
+		  </div>
+		  <!-- title area end -->
+		  <!-- nav - tabs heading start  -->
+		  <ul class="nav justify-content-center nav-pills mb-5 mt-5">
+			<li class="nav-item mb-3">
+			  <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#all-works" type="button">All Works</button>
+			</li>
+			<li class="nav-item mb-3">
+			  <button class="nav-link" data-bs-toggle="pill" data-bs-target="#psdToHtml" type="button">PSD To Html</button>
+			</li>
+			<li class="nav-item mb-3">
+			  <button class="nav-link" data-bs-toggle="pill" data-bs-target="#figmaToHtml" type="button">Figma To Html</button>
+			</li>
+		  </ul>
+		  <!-- nav - tabs heading end  -->
+		  <!-- nav - tabs body start -->
+		  <div class="tab-content text-center" id="pills-tabContent">
+			<div class="tab-pane fade show active" id="all-works">
+			  <!-- tab pane content start -->
+			  <div class="row gy-5 gx-5">
+				<!-- single item start -->
+				<div class="col-12 col-sm-6 col-md-4">
+					<div class="content-area">
+						  <img src="assets/photos/12.png" alt="Web Design" title="Web Design" class="img-fluid">
+						<div class="content-overlay">
+							<a href="https://github.com/TJMonisha073/Protfilo_TJM" target="_blank">Source Code</a>
+							<a href="https://tjmonisha073.github.io/Protfilo_TJM/" target="_blank">Live Link</a>
+						</div>
+					</div>
+				</div>
+				<!-- single item end -->
+				<!-- single item start -->
+				<div class="col-12 col-sm-6 col-md-4">
+				  <div class="content-area">
+					<img src="assets/photos/10.png" alt="Web Design" title="Web Design" class="img-fluid">
+					<div class="content-overlay">
+						<a href="https://github.com/TJMonisha073/Brigate_TJM" target="_blank">Source Code</a>
+						<a href="https://tjmonisha073.github.io/Brigate_TJM/" target="_blank">Live Link</a>
+					</div>
+				  </div>
+				  </div>
+				  <!-- single item end -->
+				 <!-- single item start -->
+				  <div class="col-12 col-sm-6 col-md-4">
+					<div class="content-area">
+					<img src="assets/photos/11.png" alt="Web Design" title="Web Design" class="img-fluid">
+					<div class="content-overlay">
+						<a href="https://github.com/TJMonisha073/MyBiz_TJM" target="_blank">Source Code</a>
+						<a href="https://tjmonisha073.github.io/MyBiz_TJM/" target="_blank">Live Link</a>
+					</div>
+					</div>
+				</div>
+				<!-- single item end -->
+				<!-- single item start -->
+				<div class="col-12 col-sm-6 col-md-4">
+				<div class="content-area">
+					<img src="assets/photos/9.png" alt="Web Design" title="Web Design" class="img-fluid">
+					<div class="content-overlay">
+						<a href="https://github.com/TJMonisha073/Dot_TJM" target="_blank">Source Code</a>
+						<a href="https://tjmonisha073.github.io/Dot_TJM/" target="_blank">Live Link</a>
+					</div>
+				</div>
+				</div>
+				<!-- single item end -->
+				<!-- single item start -->
+				<div class="col-12 col-sm-6 col-md-4">
+					<div class="content-area">
+					<img src="assets/photos/8.png" alt="Web Design" title="Web Design" class="img-fluid">
+					<div class="content-overlay">
+						<a href="https://github.com/TJMonisha073/Adrian_TJM" target="_blank">Source Code</a>
+						<a href="https://tjmonisha073.github.io/Adrian_TJM/" target="_blank">Live Link</a>
+					</div>
+					</div>
+				</div>
+				<!-- single item end -->
+				<!-- single item start -->
+				<div class="col-12 col-sm-6 col-md-4">
+					<div class="content-area">
+						<img src="assets/photos/7.png" alt="Web Design" title="Web Design" class="img-fluid">
+						<div class="content-overlay">
+							<a href="https://github.com/TJMonisha073/SeoGram_TJM" target="_blank">Source Code</a>
+							<a href="https://tjmonisha073.github.io/SeoGram_TJM/" target="_blank">Live Link</a>
+						</div>
+					</div>
+				</div>
+				<!-- single item end -->
+				<!-- single item start -->
+				<div class="col-12 col-sm-6 col-md-4">
+					<div class="content-area">
+						<img src="assets/photos/6.png" alt="Web Design" title="Web Design" class="img-fluid">
+						<div class="content-overlay">
+							<a href="https://github.com/TJMonisha073/Mundana_TJM" target="_blank">Source Code</a>
+							<a href="https://tjmonisha073.github.io/Mundana_TJM/" target="_blank">Live Link</a>
+						</div>
+					</div>
+				</div>
+				<!-- single item end -->
+				<!-- single item start -->
+				<div class="col-12 col-sm-6 col-md-4">
+					<div class="content-area">
+						<img src="assets/photos/5.png" alt="Web Design" title="Web Design" class="img-fluid">
+						<div class="content-overlay">
+							<a href="https://github.com/TJMonisha073/simple-style_TJM" target="_blank">Source Code</a>
+							<a href="https://tjmonisha073.github.io/simple-style_TJM/" target="_blank">Live Link</a>
+						</div>
+					</div>
+				</div>
+				<!-- single item end -->
+				<!-- single item start -->
+				<div class="col-12 col-sm-6 col-md-4">
+					<div class="content-area">
+						<img src="assets/photos/4.png" alt="Web Design" title="Web Design" class="img-fluid">
+						<div class="content-overlay">
+							<a href="https://github.com/TJMonisha073/ULENCE_TJM" target="_blank">Source Code</a>
+							<a href="https://tjmonisha073.github.io/ULENCE_TJM/" target="_blank">Live Link</a>
+						</div>
+					</div>
+				</div>
+				<!-- single item end -->
+				<!-- single item start -->
+				<div class="col-12 col-sm-6 col-md-4">
+					<div class="content-area">
+						<img src="assets/photos/3.png" alt="Web Design" title="Web Design" class="img-fluid">
+						<div class="content-overlay">
+							<a href="https://github.com/TJMonisha073/Activity_TJM" target="_blank">Source Code</a>
+							<a href="https://tjmonisha073.github.io/Activity_TJM/" target="_blank">Live Link</a>
+						</div>
+					</div>
+				</div>
+				<!-- single item end -->
+				<!-- single item start -->
+				<div class="col-12 col-sm-6 col-md-4">
+					<div class="content-area">
+						<img src="assets/photos/2.png" alt="Web Design" title="Web Design" class="img-fluid">
+						<div class="content-overlay">
+							<a href="https://github.com/TJMonisha073/Onu_TJM" target="_blank">Source Code</a>
+							<a href="https://tjmonisha073.github.io/Onu_TJM/" target="_blank">Live Link</a>
+						</div>
+					</div>
+				</div>
+				<!-- single item end -->
+				<!-- single item start -->
+				<div class="col-12 col-sm-6 col-md-4">
+					<div class="content-area">
+						<img src="assets/photos/1.png" alt="Web Design" title="Web Design" class="img-fluid">
+						<div class="content-overlay">
+							<a href="https://github.com/TJMonisha073/Visionary_TJM" target="_blank">Source Code</a>
+							<a href="https://tjmonisha073.github.io/Visionary_TJM/" target="_blank">Live Link</a>
+						</div>
+					</div>
+				</div>
+				<!-- single item end -->
+			  </div>
+			  <!-- tab pane content end -->
+			</div>
+			<div class="tab-pane fade" id="psdToHtml">
+				<!-- tab pane content start -->
+				<div class="row g-4">
+				<!-- single item start -->
+				<div class="col-12 col-sm-6 col-md-3">
+					<div class="content-area">
+						<img src="assets/photos/2.png" alt="Web Design" title="Web Design" class="img-fluid">
+						<div class="content-overlay">
+							<a href="https://github.com/TJMonisha073/Onu_TJM" target="_blank">Source Code</a>
+							<a href="https://tjmonisha073.github.io/Onu_TJM/" target="_blank">Live Link</a>
+						</div>
+					</div>
+				</div>
+				<!-- single item end -->
+				</div>
+				<!-- tab pane content end -->
+			</div>
+			<div class="tab-pane fade" id="figmaToHtml">
+				<!-- tab pane content start -->
+				<div class="row g-4">
+					<!-- single item start -->
+				<div class="col-12 col-sm-6 col-md-3">
+					<div class="content-area">
+						<img src="assets/photos/1.png" alt="Web Design" title="Web Design" class="img-fluid">
+						<div class="content-overlay">
+							<a href="https://github.com/TJMonisha073/Visionary_TJM" target="_blank">Source Code</a>
+							<a href="https://tjmonisha073.github.io/Visionary_TJM/" target="_blank">Live Link</a>
+						</div>
+					</div>
+				</div>
+				<!-- single item end -->
+				
+				</div>
+				<!-- tab pane content end -->
+			</div>
+		  </div>
+		  <!-- nav - tabs body end -->																
+		</div>
+	</section>
+	<!-- Our Portfolio Section End -->
+	<!-- Service Section Start -->
+	<section id="service">
+		<div class="service_area container section-background p-3">
+			<div class="row gy-5">
+			  <div class="col-12 offset-0 col-md-8 offset-md-2">
+				<h2 class="title fw-bold mt-5 mb-5 text-center" data-aos="zoom-in">Services</h2>
+			  </div>
+			</div>
+			<div class="row gy-5 gx-5">
+			  <div class="offset-md-2 col-md-8">
+				<p class="text-light fw-semibold fs-2 mb-5 pb-3 text-center"  data-aos="zoom-in">I'm always ready to create unique, professional and standard websites with excellent composition for you.</p>
+			  </div>
+			</div>
+			<div class="row gy-5 gx-5 pt-3 pb-5 px-3 mb-5">
+			  <div class="col-12 col-sm-6 col-md-4">
+				<div class="service text-center mb-5 web-design" data-aos="flip-left">
+				  <div class="p-3">
+					<i class="fa-solid fa-code mt-4 mb-4"></i>
+				  <h3 class=" fw-semibold  fs-1">Web Design</h3>
+				  <p class="text-light fs-3 px-5 py-4">Web design is the process of planning, conceiving, and organizing content for use on the internet.</p>
+				  </div>
+				</div>
+			  </div>
+			  <div class="col-12 col-sm-6 col-md-4">
+				<div class="service  text-center" data-aos="flip-right">
+					<div class="p-3">
+					  <i class="fa-brands fa-figma mt-4 mb-4"></i>
+					  <h3 class="fw-semibold fs-1">Figma to Html</h3>
+					  <p class="text-light fs-3 px-5 py-4">Figma to html is a plugin for Figma that makes it simple to convert your Figma design to code without losing any of the design elements or colors..</p>
+					</div>
+				  </div>
+			  </div>
+			  <div class="col-12 col-sm-6 col-md-4">
+				<div class="service text-center psd-html" data-aos="zoom-in-down">
+					<div class="p-3">
+					  <i class="fa-brands fa-codepen mt-4 mb-4"></i>
+					  <h3 class="fw-semibold  fs-1">PSD to Html</h3>
+					  <p class="text-light fs-3 py-4 px-5"> PSD to HTML conversion is wherein the graphic designer creates the design in a PSD format and the HTML designer converts it into the HTML.</p>
+					</div>
+				  </div>
+			  </div>
+			  <div class="col-12 col-sm-6 col-md-4">
+				<div class="service  text-center mb-5" data-aos="zoom-in-up">
+					<div class="p-4">
+					  <i class="fa-solid fa-mobile mt-4 mb-4"></i>
+					  <h3 class="fw-semibold fs-1">Responsive Design</h3>
+					  <p class="text-light fs-3 px-5 py-4">The effort required to create a website for the Internet or an intranet is known as web development..</p>
+					</div>
+				  </div>
+			  </div>
+			  <div class="col-12 col-sm-6 col-md-4">
+				<div class="service  text-center mb-5" data-aos="flip-right">
+					<div class=" p-3">
+					  <i class="fa-solid fa-database mt-4 mb-4"></i>
+					  <h3 class="fw-semibold fs-1">Web Development</h3>
+					  <p class="text-light fs-3 py-4 px-5">The effort required to create a website for the Internet or an intranet is known as web development..</p>
+					</div>
+				  </div>
+			  </div>
+			  <div class="col-12 col-sm-6 col-md-4">
+				<div class="service  text-center" data-aos="flip-left">
+					<div class="p-3">
+					  <i class="fa-brands fa-wordpress mt-4 mb-4"></i>
+					  <h3 class="fw-semibold fs-1">Wordpress</h3>
+					  <p class="text-light fs-3 py-4 px-5">WordPress is a content management system and website builder. Any form of websitecan be created with this open source software.</p>
+					</div>
+				  </div>
+			  </div>
+			  
+			 
+			</div>
+		  </div>
+	</section>
+	<!-- Service Section End -->
+	<!-- Contact Section Start -->
+	<section class="contact-section py-5" id="contact">
+		<div class="container">
+			<!-- title area start -->
+			<div class="row">
+				<div class="col-12 offset-0 col-md-8 offset-md-2">
+					<div class="title text-center">
+						<h2 class="fw-semibold mt-3">Contact</h2>
+					</div>
+				</div>
+			</div>
+			<!-- title area end -->
+			<!-- content area start -->
+			<div class="row mt-5 py-3">
+				<div class="col-12 col-md-5">
+					<div class="content-area">
+						<h4 class="mb-5">Address Info</h4>
+						<div class="address-info">
+							<div class="address mb-3">
+								<i class="fa-solid fa-location-dot fa-xl pe-4"></i>
+								<span>24H Main Block, 4th cross, California, California - 94203</span>
+							</div>
+							<div class="address mb-3">
+								<i class="fa-solid fa-phone fa-xl pe-4"></i>
+								<span>+112 367 896 2449</span>
+							</div>
+							<div class="address mb-5">
+								<i class="fa-solid fa-envelope fa-xl pe-4"></i>
+								<span>mail@example.com</span>
+							</div>
+							<div class="address">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.650921967505!2d90.3913398!3d23.759824499999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b9c9d8e69699%3A0x58c424d9022b0453!2sBITM%20Lab%20(401-402)!5e0!3m2!1sen!2sbd!4v1687031062326!5m2!1sen!2sbd" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-7">
+					<div class="content-area">
+						<h4 class="mb-5">Get In Touch</h4>
+						<div class="address-info">
+							<form>
+								<div class="row mb-5">
+									  <label for="name" class="col-sm-2 col-form-label">
+										<i class="fa-solid fa-user fa-xl pe-3"></i>
+										<span>Name</span>
+									</label>
+									  <div class="col-sm-10">
+										<input type="text" class="form-control py-3 px-4" id="name" name="name" placeholder="Name" value="" title="please fill out this filed.">
+									  </div>
+								</div>
+								<div class="row mb-5">
+									  <label for="email" class="col-sm-2 col-form-label">
+										<i class="fa-solid fa-envelope fa-xl pe-3"></i>
+										<span>Email</span>
+									</label>
+									  <div class="col-sm-10">
+										<input type="email" class="form-control py-3 px-4" id="email" name="email" value="" placeholder="Email" title="please fill out this filed."/>
+									  </div>
+								</div>
+								<div class="row mb-5">
+									<label for="phone" class="col-sm-2 col-form-label">
+										<i class="fa-solid fa-phone fa-xl pe-3"></i>
+										  <span>Phone</span>
+									  </label>
+									<div class="col-sm-10">
+										  <input type="tel" class="form-control py-3 px-4" id="phone" name="phone" value="" placeholder="Phone" title="please fill out this filed."/>
+									</div>
+								  </div>
+								<div class="row mb-5">
+									<label for="message" class="col-sm-2 col-form-label">
+										<i class="fa-solid fa-pen-to-square fa-xl pe-3"></i>
+										<span>Message</span>
+									  </label>
+									<div class="col-sm-10">
+										  <textarea name="message" id="message" class="form-control" cols="30" rows="4" placeholder="Message" title="please fill out this filed."></textarea>
+									</div>
+								  </div>
+									<button type="submit" class="btn fw-medium py-3 fs-4 px-4 text-center">Submit</button>
+							</form>
+						</div>	
+					</div>
+				</div>
+			</div>
+			<!-- content area end -->
+		</div>
+	</section>
+	<!-- Contact Section End -->
+
+	<!-- Footer Section Start -->
+<footer class="footer-section py-5">
+	<div class="container">
+		<div class="row gy-3 gy-md-0">
+			<div class="col-md-6 offset-md-3 mb-3">
+				<ul class="list-unstyled d-flex justify-content-center">
+					<li class="mx-2">
+						<a href="https://www.facebook.com/TJMonisha/" target="_blank">
+							<i class="fa-brands fa-facebook-f fa-lg"></i>
+						</a>
+					</li>
+					<li class="mx-2">
+						<a href="tel:+8801830690073">
+							<i class="fa-brands fa-whatsapp"></i>
+						</a>
+					</li>
+					<li class="mx-2">
+						<a href="mailto:etanjimjahan@gmail.com">
+							<i class="fa-regular fa-envelope"></i>
+						</a>
+					</li>
+					<li class="mx-2">
+						<a href="https://github.com/TJMonisha073" target="_blank">
+							<i class="fa-brands fa-github"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-8 offset-md-2 text-center">
+				<p class="m-0 p-0">Copyright &copy; 2023 Design With By : <a href="">Tanjim Jahan Monisha</a></p>
+			</div>
+			<div class="col-md-8 offset-md-2 text-center">
+				<a href="#top">
+					<i class="fa-solid fa-angle-up"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- Footer Section End -->
+
 
 
     <!-- BootStrap JS Link -->
