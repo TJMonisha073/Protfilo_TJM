@@ -1,0 +1,145 @@
+@media (min-width: 0px ) and (max-width: 576px) {
+    /* Header section start */
+    .menu-icon::before {
+        border-top: 70px solid rgb(29, 195, 164);
+        border-right: 70px solid transparent;
+        border-bottom: 70px solid transparent;
+        border-left: 70px solid rgb(29, 195, 164);
+    }
+    .bars {
+        top: 20px;
+        left: 30px;
+    }
+    .header-top .logo a {
+        padding: 20px 30px 0px 0px;
+    }
+    .navbar {
+        width:50%;
+    }
+    .navbar-nav {
+        position: absolute;
+        margin: -10px auto 0px;
+        z-index: 999999;
+    }
+    .navbar-nav .nav-item {
+        margin: 0px 0px 0px 60px;
+        background: #5555553e;
+    }
+    .navbar-nav .nav-item .nav-link {
+        text-align: justify;
+        font-size: 1.3rem;
+        margin: 0px auto;
+    }
+    .profile_text h2 {
+        font-size: 3rem;
+        font-weight: 500;
+        margin-top: 50px;
+    }
+    .profile_text h1 {
+        font-size: 3.5rem;
+        font-weight: 600;
+        margin: 15px 0px;
+        text-shadow: 2px 2px 2px #875b6a, -1px -1px 1px #875b6a;
+    }
+    .profile_text h3 {
+        font-size: 2.5rem;
+        font-weight: 500;
+        text-shadow: 2px 2px 2px #555757, -1px -1px 1px #28292a;
+        margin-bottom: 50px;
+    }
+    /* Header Section End */
+    /* about section start */
+    
+    .title h2{
+        font-size: 3rem;
+    }
+    .title p{
+        font-size: 1.6rem;
+        margin: 10px 0px;
+    }
+    .title .profile_menu span{
+        font-size: 1.8rem;
+    }
+    .title .profile_menu li {
+        font-size: 1.7rem;
+    }
+    .profile_img a {
+        font-size: 1.2rem;
+    }
+    /* about section end */
+}
+
+
+@media (min-width: 576px ) and (max-width: 768px) {
+    /* header section start */
+    .profile_text h2 {
+        font-size: 4rem;
+        margin-top: 50px;
+    }
+    .profile_text h1 {
+        font-size: 5rem;
+    }
+    .profile_text h3 {
+        color: var(--secondary-color);
+        font-size: 2.9rem;
+        margin-bottom: 50px;
+    }
+    /* header section end */
+    /* about section start */
+    
+    .title h2{
+        font-size: 4rem;
+    }
+    .title p{
+        font-size: 1.8rem;
+        margin: 20px 0px;
+    }
+    .title .profile_menu span{
+        font-size: 2rem;
+    }
+    .title .profile_menu li {
+        font-size: 1.8rem;
+    }
+    .profile_img a {
+        font-size: 1.5rem;
+    }
+    /* about section end */
+}
+
+
+
+@media (min-width: 768px ) and (max-width: 992px) {
+    /* header section start */
+    .profile_text h2 {
+        font-size: 5rem;
+        margin-top: 50px;
+    }
+    .profile_text h1 {
+        font-size: 5rem;
+    }
+    .profile_text h3 {
+        color: var(--secondary-color);
+        font-size: 3.7rem;
+        margin-bottom: 50px;
+    }
+    /* header section end */
+    /* about section start */
+    
+    .title h2{
+        font-size: 4.2rem;
+    }
+    .title p{
+        font-size: 1.8rem;
+        margin: 20px 0px;
+    }
+    .title .profile_menu span{
+        font-size: 2rem;
+    }
+    .title .profile_menu li {
+        font-size: 1.8rem;
+    }
+    .profile_img a {
+        font-size: 1.5rem;
+    }
+    /* about section end */
+}
